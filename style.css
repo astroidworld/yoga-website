@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --background-color: #f2f9f4;
+  --primary-background: #8fd8c5;
+  --secondry-background: #deeee8;
+  --helper-background: #c0dad6;
+  --primary-text-color: #509995;
+  --secondry-text-color: #f2f9f4;
+  --hover-text-color: #48605e;
+}
+.button {
+  padding: 1.2rem 3.2rem;
+  letter-spacing: 5px;
+  color: var(--secondry-text-color);
+  background-color: var(--primary-text-color);
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: 5px solid var(--primary-text-color);
+  border-radius: 50px;
+  transition: 0.1s linear;
+}
+
+.button:hover,
+.button:active {
+  border: 5px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+/* --------------------------global section END-------------------------------- */
+
+/* ----------------------------landing page--------------------------- */
+/* ----------------------------background section--------------------------- */
+
+.container {
+  height: 100vh;
+  width: 100%;
+  /* overflow-x: hidden; */
+  background-color: var(--background-color);
+}
+/* -------------------------background section END--------------------------------- */
+
+/* ----------------------------header section--------------------------- */
+.header {
+  height: 12rem;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------------------------logo section--------------------------- */
+.logo-section {
+  height: 100%;
+  width: 10%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo-section .logo-background {
+  height: 100%;
+  width: 80%;
+  background-color: var(--primary-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section .logo-background .logo-img {
+  width: 8rem;
+}
+
+/* ----------------------------logo section END------------------------------ */
+
+/* ----------------------------nav section--------------------------- */
+.nav {
+  height: 100%;
+  width: 90%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .nav-bar {
+  height: 40%;
+  width: 100%;
+  background-color: var(--secondry-background);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav .nav-bar .nav-items {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav .nav-bar .nav-items .items {
+  padding: 1.45rem 2rem;
+  /* background-color: red; */
+  color: var(--primary-text-color);
+  transition: 0.5s linear;
+  letter-spacing: 1px;
+}
+.nav .nav-bar .nav-items .items:hover {
+  background-color: var(--helper-background);
+  color: var(--hover-text-color);
+}
+
+/* ------------------------nav bar section END---------------------------------- */
+
+/* ---------------------header section END------------------------------------- */
+
+/* ----------------------------main section--------------------------- */
+.main-landing-page {
+  height: calc(100vh - 12rem);
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------------------------main section left--------------------------- */
+.main-left {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.design1 {
+  position: absolute;
+  width: 45rem;
+  top: 3rem;
+  left: 10rem;
+}
+
+.yoga_img_1 {
+  position: absolute;
+  width: 25rem;
+  top: 13rem;
+  left: 20rem;
+}
+/* ----------------------------main section left END--------------------------- */
+
+/* ----------------------------main section right--------------------------- */
+.main-right {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--primary-text-color);
+}
+
+.para {
+  font-size: 2rem;
+  padding: 5rem;
+  /* background-color: red; */
+  font-weight: 100;
+  color: var(--primary-text-color);
+}
+
+/* ----------------------------main section right END--------------------------- */
+
+/* ----------------------------main section END--------------------------- */
