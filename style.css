@@ -78,6 +78,7 @@ ul {
 .logo-section .logo-background {
   height: 100%;
   width: 80%;
+  padding: 5rem;
   background-color: var(--primary-background);
   display: flex;
   justify-content: center;
@@ -109,7 +110,7 @@ ul {
 }
 .nav .nav-bar .nav-items {
   height: 100%;
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -183,7 +184,7 @@ ul {
 
 .para {
   font-size: 2rem;
-  padding: 5rem;
+  padding: 5rem 5rem;
   /* background-color: red; */
   font-weight: 100;
   color: var(--primary-text-color);
@@ -192,3 +193,78 @@ ul {
 /* ----------------------------main section right END--------------------------- */
 
 /* ----------------------------main section END--------------------------- */
+
+/* ----------------------------card-section-1--------------------------- */
+
+.card-section-1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-text-color);
+}
+.title1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--secondry-text-color);
+}
+
+.para1 {
+  font-size: 2rem;
+  padding: 5rem 5rem;
+  /* background-color: red; */
+  font-weight: 100;
+  color: var(--secondry-text-color);
+}
+
+.card-box {
+  height: 60%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: 100%;
+  width: 30%;
+  transition: 0.5s linear;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.card:hover,
+.card:active {
+  background-color: var(--primary-background);
+  box-shadow: 0px 0px 50px #00130b;
+}
+
+.design2 {
+  position: absolute;
+  width: 25rem;
+  top: calc((100% - 25rem) / 2);
+  left: calc((100% - 25rem) / 2);
+}
+
+.yoga_img_2 {
+  position: absolute;
+  width: 15rem;
+  top: calc((100% - 15rem) / 2);
+  left: calc((100% - 15rem) / 2);
+}
+
+.title2 {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--secondry-text-color);
+  position: absolute;
+  bottom: 1.5rem;
+  left: 11rem;
+}
+
+/* ----------------------------card-section-1  END--------------------------- */
